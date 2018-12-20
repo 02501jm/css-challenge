@@ -2,7 +2,7 @@
     grid-area: 1 / 1 / span 1 / span 2;
     /*border:1px solid black;*/
     background-image:url('../../assets/chair2.jpg');
-    background-size:100%;
+    background-size:cover;
     background-position:0% 40%;
     background-repeat:no-repeat;
     border-radius:10px;
@@ -17,7 +17,7 @@
     grid-area: 2 / 1 / span 1 / span 1;
     /*border: 1px solid black;*/
     background-image:url('../../assets/beach.jpg');
-    background-size:150%;
+    background-size:auto 100%;
     background-repeat:no-repeat;
     border-radius:10px;
 }
@@ -51,6 +51,7 @@
     display:flex;
     justify-self:self-end;
     align-items:center;
+    margin-right:20px;
 }
 input {
     border:none;
@@ -61,6 +62,9 @@ input {
     height:50%;
     align-self:center;
     width:100%;
+}
+input:active {
+    border:none;
 }
 .input-icon {
     
