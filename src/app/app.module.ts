@@ -7,6 +7,8 @@ import { ContainerComponent } from './container/container.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GridContainerComponent } from './grid-container/grid-container.component';
 import { VerticalMenuComponent } from './vertical-menu/vertical-menu.component';
+import { AgendaComponent } from './agenda/agenda.component';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { VerticalMenuComponent } from './vertical-menu/vertical-menu.component';
     ContainerComponent,
     NavbarComponent,
     GridContainerComponent,
-    VerticalMenuComponent
+    VerticalMenuComponent,
+    AgendaComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,

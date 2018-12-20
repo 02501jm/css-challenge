@@ -32,6 +32,36 @@
 }
 .social {
     grid-area: 3 / 1 / span 1 / span 3;
-    /*border:1px solid black;*/
-    border-radius:10px;
+    background-color:#e7e3e3;
+    display:flex;
+    color:#b0b0b0;
+    height:63px;
+    justify-content:space-between;
+}
+.icons {
+    display:flex;
+}
+.social .icon-container i{
+    padding:20px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:1.4em;
+}
+.email-inp {
+    display:flex;
+    justify-self:self-end;
+    align-items:center;
+}
+input {
+    border:none;
+    background-color:#E7E3E3;
+    color:#B0B0B0;
+    border-bottom:1px solid #B0B0B0;
+    font-size:0.7em;
+    height:50%;
+    align-self:center;
+    width:100%;
+}
+.input-icon {
+    
 }
