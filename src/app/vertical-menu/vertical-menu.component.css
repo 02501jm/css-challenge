@@ -1,0 +1,16 @@
+button {
+    width:100%; 
+    text-align:center;
+    border:none;
+    border-bottom:1px solid #ebebeb;
+    background-color:#e7e3e3;
+    height:60px;
+    color:#b0b0b0;
+    font-size:0.7em;
+}
+button:first-child {
+    border-radius:10px 10px 0px 0px;
+}
+button:last-child {
+    border-radius:0px 0px 10px 10px;
+}
