@@ -9,6 +9,7 @@ import { GridContainerComponent } from './grid-container/grid-container.componen
 import { VerticalMenuComponent } from './vertical-menu/vertical-menu.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { AsideComponent } from './aside/aside.component';
+import { ContentGridComponent } from './content-grid/content-grid.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AsideComponent } from './aside/aside.component';
     GridContainerComponent,
     VerticalMenuComponent,
     AgendaComponent,
-    AsideComponent
+    AsideComponent,
+    ContentGridComponent
   ],
   imports: [
     BrowserModule,
