@@ -14,3 +14,10 @@ button:first-child {
 button:last-child {
     border-radius:0px 0px 10px 10px;
 }
+button:hover {
+    background-color:#ff4242;
+    color:white;
+    border:none;
+    border-radius: 0px 5px 5px 0px;    
+    box-shadow: 4px 0px 0px 0px #bf1616;
+}

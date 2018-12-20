@@ -22,7 +22,7 @@
     border-radius:10px;
 }
 .order {
-    grid-area: 2 / 2 / span 1 / span 3;
+    grid-area: 2 / 2 / span 1 / span 2;
     /*border:1px solid black;*/
     border-radius:10px;
     background-image:url('../../assets/hotel2.jpg');
@@ -31,10 +31,7 @@
     background-repeat:no-repeat;
 }
 .social {
-    grid-area: 3 / 1 / span 1 / span 4;
+    grid-area: 3 / 1 / span 1 / span 3;
     /*border:1px solid black;*/
     border-radius:10px;
-}
-* {
-    border:1px solid black;
 }
