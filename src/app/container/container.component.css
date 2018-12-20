@@ -9,14 +9,21 @@ app-vertical-menu {
     display:block;
     color:#b0b0b0;
     border-radius:10px;
-    margin-top:37px;
 }
 app-grid-container {
     display:grid;
-    width:calc(100% - 280 px);
-    margin-left:10px;
-    grid-template-rows:repeat(4 25%);
+    grid-template-columns:repeat(3, calc(100% / 3 - 30px));
+    grid-template-rows: 40% 40% calc(20% - 60px);
+    width:calc(100% - 300px);
+    height:950px;
+    margin-left:30px;
+    border:1px solid black;
+    border-radius:10px;
+    padding:30px;
+    grid-row-gap:30px;
+    grid-column-gap:30px;
 }
 .main {
+    margin-top:37px;
     display:flex;
 }
