@@ -21,3 +21,13 @@ app-grid-container {
     margin-top:37px;
     display:flex;
 }
+app-content-grid {
+    display:grid;
+    grid-template-columns: repeat(100% / 4);
+    grid-template-rows: repeat(100% / 2);
+    grid-gap:30px;
+    height:700px;
+    border-radius:10px;
+    width:100%;
+    margin-top:30px;
+}
